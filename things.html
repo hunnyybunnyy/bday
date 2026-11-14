@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff6f7">
+    <meta name="description" content="A birthday website for Honey, made with love.">
+    <title>For you | For Honey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header"><a class="logo" href="index.html">for honey<span>♥</span></a><button class="menu-toggle"
+            aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="wishes.html">Birthday
+                wish</a><a href="things.html" aria-current="page">For you</a><a href="moments.html">Little notes</a><a
+                href="sorry.html">One last thing</a></nav>
+    </header>
+    <main>
+        <section class="page-hero"><span class="eyebrow">02 / for you</span>
+            <h1>Little things I <em>adore</em> about you.</h1>
+            <p>I can't really talk about everything, because there are so many things I can talk about. But here are some, tap on them to read and know how I feel towards you.</p>
+        </section>
+        <section class="cards-grid"><button class="reveal-card" data-modal-title="The way you never give up"
+                data-modal-body="I admire how hard you work for things that matter to you. Even when things get difficult, you keep trying. I hope one day, everything works out great and you achieve everything you want. Also, thanks for never giving up on us! "><span
+                    class="card-index">01</span><span class="card-title">The way you never give up</span><span
+                    class="card-more">read this ↗</span></button><button class="reveal-card"
+                data-modal-title="Your caring heart"
+                data-modal-body="I hate that you do not say everything out loud, but I know how your care shows up in the little things. In how you notice, how you and how you try to make things better, even when I say stupid things."><span
+                    class="card-index">02</span><span class="card-title">Your quiet, caring heart</span><span
+                    class="card-more">read this ↗</span></button><button class="reveal-card"
+                data-modal-title="Your pour soul"
+                data-modal-body="Okay, I must admit that you are such a pure soul- no bad intentions. I hate how so many bad things happened to you, but I love how you never have bad intentions for anybody. Never ever change, please!"><span
+                    class="card-index">03</span><span class="card-title">Your pure soul</span><span
+                    class="card-more">read this ↗</span></button><button class="reveal-card"
+                data-modal-title="The feelings you keep tucked away"
+                data-modal-body="I know you are quiet about what you feel sometimes. I hope you always have room to speak when you want to, and room to be quiet when you need to. But i do know that you wish for the best always. And, I really hope to become your safe space someday!"><span
+                    class="card-index">04</span><span class="card-title">The feelings you keep tucked away</span><span
+                    class="card-more">read this ↗</span></button><button class="reveal-card"
+                data-modal-title="Your gentleness towards me"
+                data-modal-body="I love how gentle you are, when it comes to me. I say whatever, because I know that you love me! And i love how you never forced me for anything! Honestly, the biggest thing I love about you!"><span
+                    class="card-index">05</span><span class="card-title">Your gentleness towards me</span><span
+                    class="card-more">read this ↗</span></button><button class="reveal-card"
+                data-modal-title="All those big dreams"
+                data-modal-body="You are ambitious, and I hope the future meets you with beautiful opportunities. I hope you get the things you have been working toward, including your dream car, spending unlimited amount of time with your parents and grand-parents, living in the mountais, getting a husky, and i hope to be there with you throughout the process and after! I love you!"><span
+                    class="card-index">06</span><span class="card-title">All those big dreams</span><span
+                    class="card-more">read this ↗</span></button><button class="reveal-card"
+                data-modal-title="You, just as you are"
+                data-modal-body="You are a sweetheart. I love spending time with you, just because of who you are. And, how you never try to pretend someone you are not. I want you to know that you are appreciated, even when I do not say anything about all the tiny things you do for me."><span
+                    class="card-index">07</span><span class="card-title">You, just as you are</span><span
+                    class="card-more">read this ↗</span></button></section>
+        <div class="modal" id="message-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+            <div class="modal-panel"><button class="modal-close" aria-label="Close message">×</button><span
+                    class="eyebrow">a little note for honey ♡</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-body"></p><span class="modal-heart">♥</span>
+            </div>
+        </div>
+        <div class="next-link"><a class="button" href="moments.html">A few more little surprises ↗</a></div>
+    </main>
+    <footer class="footer"><span>made with so much love ♡</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

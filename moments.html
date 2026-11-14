@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff6f7">
+    <meta name="description" content="A birthday website for Honey, made with love.">
+    <title>Little notes | For Honey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header"><a class="logo" href="index.html">for honey<span>♥</span></a><button class="menu-toggle"
+            aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Main navigation"><a href="index.html">Home</a><a href="wishes.html">Birthday
+                wish</a><a href="things.html">For you</a><a href="moments.html" aria-current="page">Little notes</a><a
+                href="sorry.html">One last thing</a></nav>
+    </header>
+    <main>
+        <section class="page-hero"><span class="eyebrow">03 / tiny surprises</span>
+            <h1>Open when you <em>need a smile.</em></h1>
+            <p>Six tiny notes, tucked away just for you.</p>
+        </section>
+        <section class="notes-grid"><button class="note-card" data-modal-title="A tiny reminder"
+                data-modal-body="I hope you remember to smile today! You mean the world to me! I love you forever!"><span>✉</span><strong>A
+                    tiny reminder</strong><small>tap to open</small></button><button class="note-card"
+                data-modal-title="For your big dreams"
+                data-modal-body="I hope you never stop believing in what you are building. I will always wish good things for your future."><span>✉</span><strong>For
+                    your big dreams</strong><small>tap to open</small></button><button class="note-card"
+                data-modal-title="On a difficult day"
+                data-modal-body="God is watching! Take your time. Breathe. You are allowed to have a day that is simply a day without any kind of worries."><span>✉</span><strong>On
+                    a difficult day</strong><small>tap to open</small></button><button class="note-card"
+                data-modal-title="Just because"
+                data-modal-body="You make ordinary moments feel a little more memorable. I hope you know how lovely that is."><span>✉</span><strong>Just
+                    because</strong><small>tap to open</small></button><button class="note-card"
+                data-modal-title="Your birthday mission"
+                data-modal-body="I know we did not get to celebrate your birthday nicely, but I hope my surprise this Sunday will make you happy, and know how much you matter to me. ♡"><span>✉</span><strong>Your
+                    birthday mission</strong><small>tap to open</small></button><button class="note-card"
+                data-modal-title="One more wish"
+                data-modal-body="May this year be full of blessings and the things that make you happy. Including: lesser fights among us, lol."><span>✉</span><strong>One
+                    more wish</strong><small>tap to open</small></button></section>
+        <div class="modal" id="message-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+            <div class="modal-panel"><button class="modal-close" aria-label="Close message">×</button><span
+                    class="eyebrow">a note from me to you</span>
+                <h2 id="modal-title"></h2>
+                <p id="modal-body"></p><span class="modal-heart">♥</span>
+            </div>
+        </div>
+        <div class="next-link"><a class="button" href="sorry.html">One last thing ↗</a></div>
+    </main>
+    <footer class="footer"><span>made with so much love ♡</span>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

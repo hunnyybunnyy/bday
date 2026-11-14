@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#fff6f7">
+    <meta name="description" content="A birthday website for Honey, made with love.">
+    <title>Happy birthday | For Honey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header class="site-header"><a class="logo" href="index.html">for honey<span>♥</span></a><button class="menu-toggle"
+            aria-label="Toggle menu" aria-expanded="false">☰</button>
+        <nav class="site-nav" aria-label="Main navigation"><a href="index.html" aria-current="page">Home</a><a
+                href="wishes.html">Birthday wish</a><a href="things.html">For you</a><a href="moments.html">Little
+                notes</a><a href="sorry.html">One last thing</a></nav>
+    </header>
+    <main>
+        <section class="birthday-gate" id="birthdayGate" aria-labelledby="gateTitle">
+            <div class="gate-card">
+                <div class="gate-overline">a birthday surprise · made just for you</div>
+                <h1 id="gateTitle">A little something for <em>Honey.</em></h1>
+                <p>Theres a birthday letter waiting for you. First, a tiny secret.</p>
+                <form id="unlockForm" class="unlock-form"><label for="birthdayCode">Enter four-digit code with my
+                        birthday as dd/mm format</label>
+                    <div class="unlock-row"><input id="birthdayCode" type="password" inputmode="numeric" maxlength="4"
+                            pattern="[0-9]{4}" placeholder="••••" autocomplete="off" required><button
+                            type="submit">Unlock the letter ↗</button></div><span id="unlockFeedback"
+                        class="unlock-feedback" role="status"></span>
+                </form>
+                <div class="gate-envelope" aria-hidden="true">
+                    <div class="envelope-back"></div>
+                    <div class="envelope-paper">happy birthday, honey ♡</div>
+                    <div class="envelope-flap"></div>
+                    <div class="envelope-front"></div>
+                    <div class="envelope-seal">♥</div>
+                </div>
+                <div class="gate-small">A little love letter for you. ♡</div>
+            </div>
+        </section>
+        <form name="visit-events" data-netlify="true" netlify-honeypot="bot-field" hidden><input name="form-name"
+                value="visit-events"><input name="bot-field"><input name="event"><input name="page"></form>
+        <section class="hero">
+            <div class="hero-copy"><span class="eyebrow">a little corner of the internet, just for you</span>
+                <h1>Happy birthday,<br><em>Honey.</em><span class="heart-dot">♥</span></h1>
+                <p>To my baby, I hope your birthday makes you feel as special as you are to me.</p><a class="button"
+                    href="wishes.html">Open your birthday surprise <span>↗</span></a>
+                <div class="mini-note">made just for you, with all my heart</div>
+            </div>
+            <div class="hero-gallery" aria-label="Photo collage placeholders">
+                <div class="photo photo-one"><img src="assets/photos/honey-1.jpg" alt="Honey portrait"
+                        onerror="this.style.display='none'"><span class="photo-fallback">YOUR FAVORITE<br>PHOTO OF
+                        HIM<br><small>honey-1.jpg</small></span></div>
+                <div class="photo photo-two"><img src="assets/photos/honey-2.jpg" alt="A happy moment with Honey"
+                        onerror="this.style.display='none'"><span class="photo-fallback">A CANDID<br>OF
+                        HONEY<br><small>honey-2.jpg</small></span></div>
+                <div class="photo photo-three"><img src="assets/photos/honey-3.jpg" alt="Another photo of Honey"
+                        onerror="this.style.display='none'"><span class="photo-fallback">ANOTHER<br>SWEET
+                        PHOTO<br><small>honey-3.jpg</small></span></div><span class="gallery-sticker">my favorite human
+                    ♡</span>
+            </div>
+        </section>
+        <section class="bouquet-section" id="roses">
+            <div class="bouquet-copy"><span class="eyebrow">a little something for the birthday boy</span>
+                <h2>Flowers, <em>for you.</em></h2>
+                <p>Because you deserve a whole lot of happiness today. I love you!</p><button class="button bouquet-button"
+                    id="bloomButton" type="button">A bouquet for Honey ♥ <span>↗</span></button>
+                <p class="bouquet-note" id="bouquetNote" aria-live="polite">Press to unwrap your roses.</p>
+            </div>
+            <div class="bouquet-art" id="bouquetArt" role="img"
+                aria-label="An illustrated bouquet of red and pink roses wrapped in blush paper"><svg
+                    viewBox="0 0 440 450" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                    <defs>
+                        <linearGradient id="wrap" x1="0" y1="0" x2="1" y2="1">
+                            <stop stop-color="#ffe4e8" />
+                            <stop offset="1" stop-color="#f2a6b9" />
+                        </linearGradient>
+                    </defs>
+                    <g class="stems" stroke="#42724e" stroke-width="7" stroke-linecap="round">
+                        <path
+                            d="M215 360 118 120M215 360 184 92M215 360 260 90M215 360 328 136M215 360 92 205M215 360 350 218" />
+                    </g>
+                    <g fill="#5b9469">
+                        <ellipse cx="147" cy="230" rx="18" ry="43" transform="rotate(-46 147 230)" />
+                        <ellipse cx="279" cy="242" rx="18" ry="43" transform="rotate(42 279 242)" />
+                        <ellipse cx="185" cy="180" rx="15" ry="34" transform="rotate(-42 185 180)" />
+                        <ellipse cx="276" cy="180" rx="15" ry="34" transform="rotate(42 276 180)" />
+                    </g>
+                    <g class="rose rose-1" transform="translate(118 120)">
+                        <circle r="43" fill="#bd214b" />
+                        <ellipse cy="-19" rx="27" ry="23" fill="#ef6885" />
+                        <ellipse cx="-23" cy="5" rx="22" ry="27" fill="#d93a60" />
+                        <ellipse cx="23" cy="5" rx="22" ry="27" fill="#df4465" />
+                        <circle r="18" fill="#a91d42" />
+                        <path d="M-9 0 Q0 -14 12 -3 Q16 11 0 11 Q-7 10 -4 3" stroke="#f6a1b0" stroke-width="4"
+                            fill="none" />
+                    </g>
+                    <g class="rose rose-2" transform="translate(184 92)">
+                        <circle r="43" fill="#e45a7a" />
+                        <ellipse cy="-19" rx="27" ry="23" fill="#ffadc0" />
+                        <ellipse cx="-23" cy="5" rx="22" ry="27" fill="#f385a0" />
+                        <ellipse cx="23" cy="5" rx="22" ry="27" fill="#f38ba3" />
+                        <circle r="18" fill="#d74267" />
+                        <path d="M-9 0 Q0 -14 12 -3 Q16 11 0 11 Q-7 10 -4 3" stroke="#ffd5df" stroke-width="4"
+                            fill="none" />
+                    </g>
+                    <g class="rose rose-3" transform="translate(260 90)">
+                        <circle r="43" fill="#ad1c42" />
+                        <ellipse cy="-19" rx="27" ry="23" fill="#e24b6b" />
+                        <ellipse cx="-23" cy="5" rx="22" ry="27" fill="#ca2b53" />
+                        <ellipse cx="23" cy="5" rx="22" ry="27" fill="#d73459" />
+                        <circle r="18" fill="#971237" />
+                        <path d="M-9 0 Q0 -14 12 -3 Q16 11 0 11 Q-7 10 -4 3" stroke="#f6a1b0" stroke-width="4"
+                            fill="none" />
+                    </g>
+                    <g class="rose rose-4" transform="translate(328 136)">
+                        <circle r="43" fill="#e56d8b" />
+                        <ellipse cy="-19" rx="27" ry="23" fill="#ffc2d1" />
+                        <ellipse cx="-23" cy="5" rx="22" ry="27" fill="#f28fa9" />
+                        <ellipse cx="23" cy="5" rx="22" ry="27" fill="#f28fa9" />
+                        <circle r="18" fill="#d84b72" />
+                        <path d="M-9 0 Q0 -14 12 -3 Q16 11 0 11 Q-7 10 -4 3" stroke="#ffe1e8" stroke-width="4"
+                            fill="none" />
+                    </g>
+                    <g class="rose rose-5" transform="translate(92 205) scale(.82)">
+                        <circle r="43" fill="#a91a41" />
+                        <ellipse cy="-19" rx="27" ry="23" fill="#e34d6c" />
+                        <ellipse cx="-23" cy="5" rx="22" ry="27" fill="#c52b52" />
+                        <ellipse cx="23" cy="5" rx="22" ry="27" fill="#cc3055" />
+                        <circle r="18" fill="#941236" />
+                        <path d="M-9 0 Q0 -14 12 -3 Q16 11 0 11 Q-7 10 -4 3" stroke="#f6a1b0" stroke-width="4"
+                            fill="none" />
+                    </g>
+                    <g class="rose rose-6" transform="translate(350 218) scale(.82)">
+                        <circle r="43" fill="#d94267" />
+                        <ellipse cy="-19" rx="27" ry="23" fill="#ff9fb4" />
+                        <ellipse cx="-23" cy="5" rx="22" ry="27" fill="#ec7190" />
+                        <ellipse cx="23" cy="5" rx="22" ry="27" fill="#ef7e99" />
+                        <circle r="18" fill="#bb2b53" />
+                        <path d="M-9 0 Q0 -14 12 -3 Q16 11 0 11 Q-7 10 -4 3" stroke="#ffccda" stroke-width="4"
+                            fill="none" />
+                    </g>
+                    <path d="M75 236 215 408 365 236 225 278Z" fill="url(#wrap)" opacity=".95" />
+                    <path d="M75 236 215 408 220 279Z" fill="#f7b7c7" />
+                    <path d="M365 236 215 408 220 279Z" fill="#ffe5eb" opacity=".8" />
+                    <path d="M174 351 Q215 334 256 351" stroke="#a9254c" stroke-width="13" fill="none"
+                        stroke-linecap="round" />
+                    <path d="M215 351 Q176 369 184 389 Q209 393 215 351 Q224 392 246 389 Q255 367 215 351"
+                        fill="#cc3a5c" />
+                </svg><span class="bouquet-tag">a dozen wishes in every petal ♡</span></div>
+        </section>
+        <section class="home-intro"><span class="eyebrow">a little birthday journey</span>
+            <h2>Some pages are made to be read.<br><em>these ones are made to be felt.</em></h2>
+            <div class="home-links"><a href="wishes.html"><span>01</span><strong>My birthday
+                        wish</strong><span>↗</span></a><a href="things.html"><span>02</span><strong>Everything I notice
+                        about you</strong><span>↗</span></a><a href="moments.html"><span>03</span><strong>Little notes,
+                        just because</strong><span>↗</span></a><a href="sorry.html"><span>04</span><strong>One last
+                        thing</strong><span>↗</span></a></div>
+        </section>
+    </main>
+    <footer class="footer"><span>made with so much love ♡</span></footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
