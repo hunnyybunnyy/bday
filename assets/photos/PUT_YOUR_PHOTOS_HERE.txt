@@ -1,0 +1,10 @@
+PLACE YOUR PHOTOS IN THIS FOLDER WITH EXACT FILE NAMES:
+
+honey-1.jpg  — Main landing page: favorite portrait (vertical photo)
+honey-2.jpg  — Landing page: candid/smiling photo
+honey-3.jpg  — Landing page: another favorite photo
+honey-4.jpg  — Birthday wish page: meaningful photo
+
+Replace each file with your own JPG. Keep the exact names, or edit the src= paths in index.html and wishes.html.
+Images are deliberately NOT included. Colored placeholder cards will show until you add them.
+For a background image instead, edit style.css .hero-gallery or .hero; photo collage is the default design.
